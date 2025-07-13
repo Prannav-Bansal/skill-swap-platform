@@ -37,8 +37,12 @@ The **Skill Swap Platform** allows individuals to create profiles, list skills t
 ## 🧱 Tech Stack
 
 - **Frontend**: React, TypeScript, Tailwind CSS, Shadcn UI, Wouter
-- **Backend**: Node.js, Express.js, TypeScript
-- **Database**: PostgreSQL with Drizzle ORM
-- **Authentication**: Replit OAuth (OpenID Connect)
+- **Backend as a Service**: [Supabase](https://supabase.com/)
+  - Realtime PostgreSQL database
+  - Auth (email/password, social)
+  - Row-level security (RLS)
+  - Storage for user profile images (optional)
 - **State Management**: React Query (TanStack Query)
 - **Build Tool**: Vite
+
+---
